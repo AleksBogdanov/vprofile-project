@@ -1,10 +1,9 @@
 #!/bin/bash
 DATABASE_PASS='admin123'
-sudo yum update -y
-sudo yum install epel-release -y
-sudo yum install git zip unzip -y
-sudo yum install mariadb-server -y
-
+sudo apt update
+sudo apt upgrade -y
+sudo apt install mariadb-server
+sudo apt install ufw -y
 
 
 # starting & enabling mariadb-server
@@ -25,14 +24,13 @@ sudo mysql -u root -p"$DATABASE_PASS" -e "grant all privileges on accounts.* TO 
 sudo mysql -u root -p"$DATABASE_PASS" accounts < /tmp/vprofile-project/src/main/resources/db_backup.sql
 sudo mysql -u root -p"$DATABASE_PASS" -e "FLUSH PRIVILEGES"
 
-# Restart mariadb-server
-sudo systemctl restart mariadb
+sudo ufw enable
 
+# Allow MySQL/MariaDB through the firewall (port 3306)
+sudo ufw allow 3306/tcp
 
-#starting the firewall and allowing the mariadb to access from port no. 3306
-sudo systemctl start firewalld
-sudo systemctl enable firewalld
-sudo firewall-cmd --get-active-zones
-sudo firewall-cmd --zone=public --add-port=3306/tcp --permanent
-sudo firewall-cmd --reload
+# Reload UFW to apply changes
+sudo ufw reload
+
+# Restart MariaDB service
 sudo systemctl restart mariadb
