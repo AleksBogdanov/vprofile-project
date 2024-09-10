@@ -1,0 +1,5 @@
+/workspaces/vprofile-project/src/test/java/com/visualpathit/account/controllerTest/SampleTest.java
+/workspaces/vprofile-project/src/test/java/com/visualpathit/account/controllerTest/UserControllerTest.java
+/workspaces/vprofile-project/src/test/java/com/visualpathit/account/modelTest/RoleTest.java
+/workspaces/vprofile-project/src/test/java/com/visualpathit/account/modelTest/UserTest.java
+/workspaces/vprofile-project/src/test/java/com/visualpathit/account/setup/StandaloneMvcTestViewResolver.java
