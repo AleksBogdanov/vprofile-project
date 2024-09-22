@@ -1,4 +1,0 @@
-trunk_cli_version: 1.22.5
-title: Exception occurred while installing shellcheck
-report:
-  - "'shellcheck' has no matching download for current os/cpu @ version:0.10.0"

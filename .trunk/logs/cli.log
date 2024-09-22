@@ -1,6 +1,0 @@
-[09-07 20:39:20] [client.cc:315] prettier - .trunk\trunk.yaml
-[09-07 21:45:09] [login.cc:52] GetUserRequest failed with status 16: Invalid token received 
-[09-08 21:45:08] [login.cc:52] GetUserRequest failed with status 16: Invalid token received 
-[09-10 14:23:57] [login.cc:52] GetUserRequest failed with status 16: Invalid token received 
-[09-11 14:23:51] [login.cc:52] GetUserRequest failed with status 16: Invalid token received 
-[09-12 14:23:52] [login.cc:52] GetUserRequest failed with status 16: Invalid token received 

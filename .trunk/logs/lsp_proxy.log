@@ -1,8 +1,0 @@
-[09-07 20:39:54] [login.cc:52] GetUserRequest failed with status 16: Invalid token received 
-[09-07 20:39:56] [client.cc:19] GRPC Failed (error code INTERNAL): Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch.
-[09-07 20:40:04] [submission_buffer.cc:178] diagnostics buffer 0: Submission failed: Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch.
-[09-07 20:40:04] [shared_server_context.hh:131] Message processing failed: Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch.
-[09-10 13:23:51] [login.cc:52] GetUserRequest failed with status 16: Invalid token received 
-[09-10 14:27:59] [client.cc:19] GRPC Failed (error code INTERNAL): Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch.
-[09-10 14:27:59] [submission_buffer.cc:178] diagnostics buffer 23: Submission failed: Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch.
-[09-10 14:27:59] [shared_server_context.hh:131] Message processing failed: Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch.
