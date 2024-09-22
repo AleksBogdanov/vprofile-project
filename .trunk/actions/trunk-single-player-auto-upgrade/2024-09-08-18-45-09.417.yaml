@@ -1,0 +1,14 @@
+action_id: trunk-single-player-auto-upgrade
+date: 2024-09-08 18:45:09
+run: trunk upgrade cli --single-player-only -n --no-progress --on-upgrade=false --allow-daemon-start=false
+run_from: ""
+trigger: schedule 24h+1h
+result:
+  exit_code: 0
+  out: ""
+  err: ""
+timestamp: 1725821109
+full_timestamp:
+  nanos: 417150000
+  seconds: 1725821109
+trunk_version: 1.22.5

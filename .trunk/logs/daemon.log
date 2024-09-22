@@ -1,0 +1,337 @@
+[2024-09-11 13:33:20.699] [global] [info] [git_source_control.cc:517] Computing merge base between 41baa71d813b836d3a9245044040ece8b471e656 and 8cdb300d9cb05687550b0ebf026c69da60aeadf8
+[2024-09-11 13:33:20.702] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2024-09-11 13:33:20.704] [global] [info] [service.cc:118] Notifications config has not changed
+[2024-09-11 13:33:20.713] [global] [info] [git_source_control.cc:517] Computing merge base between 41baa71d813b836d3a9245044040ece8b471e656 and 8cdb300d9cb05687550b0ebf026c69da60aeadf8
+[2024-09-11 13:33:20.713] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2024-09-11 13:33:21.009] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 13:33:21.011] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 13:33:21.013] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-11 13:33:21.067] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 13:33:22.052] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-11 13:33:22.132] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-11 13:33:23.948] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-11 13:59:45.449] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-11 13:59:45.762] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 13:59:45.763] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 13:59:45.764] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-11 13:59:45.871] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 13:59:46.860] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-11 13:59:46.862] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-11 13:59:48.921] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-11 14:23:49.714] [global] [info] [runner.cc:154] Executing action trunk-single-player-auto-upgrade.schedule.24h+1h
+[2024-09-11 14:23:49.716] [global] [info] [runner.cc:154] Executing action trunk-whoami.schedule.24h+1h
+[2024-09-11 14:23:50.040] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 14:23:50.040] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 14:23:50.118] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 14:23:50.319] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-11 14:23:50.323] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *)
+[2024-09-11 14:23:50.324] [global] [info] [service.cc:227] Applying upgrade changes to trunk.yaml
+[2024-09-11 14:23:50.325] [global] [info] [linter_upgrade.cc:345] Detected 0 configs to write
+[2024-09-11 14:23:50.325] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *) status=OK
+[2024-09-11 14:23:50.903] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'action-validator' has no matching download for current os/cpu @ version:0.5.3
+[2024-09-11 14:23:50.905] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'air' has no matching download for current os/cpu @ version:1.44.0
+[2024-09-11 14:23:50.906] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'swiftlint' has no matching download for current os/cpu @ version:0.49.1
+[2024-09-11 14:23:50.906] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'trunk-toolbox' has no matching download for current os/cpu @ version:0.3.1
+[2024-09-11 14:23:50.910] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'kubectl' has no matching download for current os/cpu @ version:1.25.16
+[2024-09-11 14:23:50.913] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'swiftformat' has no matching download for current os/cpu @ version:0.50.0
+[2024-09-11 14:23:50.915] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'amazon-ecr-credential-helper' has no matching download for current os/cpu @ version:0.7.0
+[2024-09-11 14:23:50.920] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'shellcheck' has no matching download for current os/cpu @ version:0.10.0
+[2024-09-11 14:23:50.920] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'direnv' has no matching download for current os/cpu @ version:2.32.3
+[2024-09-11 14:23:50.920] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'include-what-you-use' has no matching download for current os/cpu @ version:0.20
+[2024-09-11 14:23:50.921] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'tfnotify' has no matching download for current os/cpu @ version:0.8.0
+[2024-09-11 14:23:50.924] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'assh' has no matching download for current os/cpu @ version:2.10.0
+[2024-09-11 14:23:50.926] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'clang-tidy' has no matching download for current os/cpu @ version:16.0.3
+[2024-09-11 14:23:50.927] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'tfmigrate' has no matching download for current os/cpu @ version:0.3.14
+[2024-09-11 14:23:50.929] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'stringslint' has no matching download for current os/cpu @ version:0.1.1
+[2024-09-11 14:23:50.932] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'act' has no matching download for current os/cpu @ version:0.2.49
+[2024-09-11 14:23:50.932] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'yarn' has no matching download for current os/cpu @ version:1.22.19
+[2024-09-11 14:23:50.933] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'clang-format' has no matching download for current os/cpu @ version:14.0.1
+[2024-09-11 14:23:50.933] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'scalafmt' has no matching download for current os/cpu @ version:3.4.3
+[2024-09-11 14:23:50.934] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'adr' has no matching download for current os/cpu @ version:3.0.0
+[2024-09-11 14:23:50.936] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'istioctl' has no matching download for current os/cpu @ version:1.14.6
+[2024-09-11 14:23:50.939] [global] [info] [service.cc:118] Notifications config has not changed
+[2024-09-11 14:23:50.946] [global] [info] [git_source_control.cc:517] Computing merge base between 41baa71d813b836d3a9245044040ece8b471e656 and 8cdb300d9cb05687550b0ebf026c69da60aeadf8
+[2024-09-11 14:23:50.946] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2024-09-11 14:23:51.247] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 14:23:51.248] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 14:23:51.249] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-11 14:23:51.297] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 14:23:52.352] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-11 14:23:52.353] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-11 14:23:54.119] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-11 14:59:45.449] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-11 14:59:45.765] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 14:59:45.766] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 14:59:45.767] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-11 14:59:45.863] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 14:59:46.775] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-11 14:59:46.826] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-11 14:59:48.481] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-11 15:59:45.450] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-11 15:59:45.756] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 15:59:45.758] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 15:59:45.759] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-11 15:59:45.852] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 15:59:46.878] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-11 15:59:46.881] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-11 15:59:48.766] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-11 16:59:45.449] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-11 16:59:45.763] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 16:59:45.764] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 16:59:45.765] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-11 16:59:45.860] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 16:59:46.879] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-11 16:59:46.881] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-11 16:59:48.766] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-11 17:38:51.991] [global] [info] [git_source_control.cc:517] Computing merge base between 41baa71d813b836d3a9245044040ece8b471e656 and 8cdb300d9cb05687550b0ebf026c69da60aeadf8
+[2024-09-11 17:38:51.992] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2024-09-11 17:39:06.554] [global] [info] [git_source_control.cc:517] Computing merge base between 41baa71d813b836d3a9245044040ece8b471e656 and 8cdb300d9cb05687550b0ebf026c69da60aeadf8
+[2024-09-11 17:39:06.555] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2024-09-11 17:59:45.449] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-11 17:59:45.816] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 17:59:45.817] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 17:59:45.818] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-11 17:59:45.952] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 17:59:46.992] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-11 17:59:46.993] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-11 17:59:48.995] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-11 18:59:45.449] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-11 18:59:46.024] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 18:59:46.025] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 18:59:46.026] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-11 18:59:46.120] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 18:59:47.184] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-11 18:59:47.187] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-11 18:59:54.525] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-11 19:59:45.448] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-11 19:59:45.757] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 19:59:45.759] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 19:59:45.759] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-11 19:59:46.614] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 19:59:48.245] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-11 19:59:48.247] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-11 19:59:49.917] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-11 20:59:45.450] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-11 20:59:45.749] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 20:59:45.751] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 20:59:45.751] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-11 20:59:45.828] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 20:59:46.809] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-11 20:59:46.811] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-11 20:59:48.960] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-11 21:59:45.450] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-11 21:59:45.758] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 21:59:45.760] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 21:59:45.761] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-11 21:59:45.823] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 21:59:46.912] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-11 21:59:46.915] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-11 21:59:48.775] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-11 22:59:45.449] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-11 22:59:45.746] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 22:59:45.747] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 22:59:45.748] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-11 22:59:45.843] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 22:59:47.100] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-11 22:59:47.103] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-11 22:59:48.832] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-11 23:59:46.723] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-11 23:59:47.053] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-11 23:59:47.054] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-11 23:59:47.056] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-11 23:59:47.146] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-11 23:59:48.129] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-11 23:59:48.131] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-11 23:59:50.616] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 00:59:45.449] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 00:59:45.814] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 00:59:45.816] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 00:59:45.818] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 00:59:46.051] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 00:59:48.739] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 00:59:49.156] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 00:59:50.873] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 01:59:45.449] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 01:59:45.777] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 01:59:45.778] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 01:59:45.779] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 01:59:45.852] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 01:59:46.859] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 01:59:46.925] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 01:59:48.695] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 12:01:37.444] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 12:01:37.445] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 12:01:37.762] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 12:01:37.771] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 12:01:37.774] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 12:01:37.775] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 12:01:37.776] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 12:01:37.776] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 12:01:37.872] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 12:01:37.882] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 12:01:38.845] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 12:01:38.846] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 12:01:38.877] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 12:01:38.878] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 12:01:40.948] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 12:01:40.985] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 12:01:41.658] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-12 12:01:41.658] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-12 13:01:37.444] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 13:01:37.808] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 13:01:37.809] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 13:01:37.810] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 13:01:37.902] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 13:01:38.951] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 13:01:38.952] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 13:01:41.686] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 13:01:42.423] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-12 13:23:49.712] [global] [info] [runner.cc:154] Executing action trunk-cache-prune.schedule.24h
+[2024-09-12 13:23:49.713] [global] [info] [runner.cc:154] Executing action trunk-share-with-everyone.schedule.24h
+[2024-09-12 13:28:49.715] [global] [info] [runner.cc:154] Executing action trunk-single-player-auto-on-upgrade.schedule.24h+5m
+[2024-09-12 14:01:37.444] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 14:01:37.792] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 14:01:37.794] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 14:01:37.795] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 14:01:37.888] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 14:01:39.039] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 14:01:39.040] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 14:01:41.015] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 14:01:41.901] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-12 14:23:49.714] [global] [info] [runner.cc:154] Executing action trunk-single-player-auto-upgrade.schedule.24h+1h
+[2024-09-12 14:23:49.716] [global] [info] [runner.cc:154] Executing action trunk-whoami.schedule.24h+1h
+[2024-09-12 15:01:37.444] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 15:01:37.742] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 15:01:37.743] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 15:01:37.744] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 15:01:37.926] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 15:01:38.846] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 15:01:38.898] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 15:01:41.182] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 15:01:41.879] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-12 16:01:37.444] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 16:01:37.777] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 16:01:37.778] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 16:01:37.779] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 16:01:37.906] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 16:01:41.327] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 16:01:41.328] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 16:01:43.167] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 16:01:43.830] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-12 17:01:37.444] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 17:01:37.742] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 17:01:37.744] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 17:01:37.744] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 17:01:37.828] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 17:01:39.264] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 17:01:39.266] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 17:01:40.910] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 17:01:41.584] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-12 18:01:37.444] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 18:01:37.753] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 18:01:37.754] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 18:01:37.755] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 18:01:37.854] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 18:01:38.919] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 18:01:38.922] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 18:01:40.752] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 18:01:42.462] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-12 19:01:37.445] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 19:01:37.755] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 19:01:37.756] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 19:01:37.758] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 19:01:37.848] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 19:01:38.887] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 19:01:38.888] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 19:01:40.960] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 19:01:42.268] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-12 20:01:37.446] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 20:01:37.800] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 20:01:37.801] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 20:01:37.803] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 20:01:37.859] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 20:01:38.946] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 20:01:38.946] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 20:01:47.984] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 20:01:48.644] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-12 21:01:37.444] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 21:01:37.746] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 21:01:37.748] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 21:01:37.749] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 21:01:37.854] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 21:01:38.803] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 21:01:38.805] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 21:01:41.938] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 21:01:42.667] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-12 22:01:37.444] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 22:01:37.752] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 22:01:37.753] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 22:01:37.754] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 22:01:38.067] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 22:01:38.860] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 22:01:38.861] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 22:01:40.719] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 22:01:42.098] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-12 23:01:37.446] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-12 23:01:37.755] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-12 23:01:37.756] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-12 23:01:37.758] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-12 23:01:37.876] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-12 23:01:38.920] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-12 23:01:38.921] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-12 23:01:40.670] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-12 23:01:41.352] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-13 00:01:38.814] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-13 00:01:39.140] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-13 00:01:39.141] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-13 00:01:39.141] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-13 00:01:39.288] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-13 00:01:40.240] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-13 00:01:40.241] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-13 00:01:42.201] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-13 00:01:42.909] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-13 01:01:37.446] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-13 01:01:37.756] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-13 01:01:37.758] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-13 01:01:37.760] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-13 01:01:37.865] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-13 01:01:38.923] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-13 01:01:39.024] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-13 01:01:41.021] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-13 01:01:41.765] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-13 02:01:37.446] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-13 02:01:37.760] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-13 02:01:37.762] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-13 02:01:37.763] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-13 02:01:37.855] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-13 02:01:38.824] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-13 02:01:38.825] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-13 02:01:40.647] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-13 02:01:41.366] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-13 11:53:35.284] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-13 11:53:35.284] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-13 11:53:35.839] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-13 11:53:35.840] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-13 11:53:35.841] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-13 11:53:35.841] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-13 11:53:35.843] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-13 11:53:35.843] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-13 11:53:35.938] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-13 11:53:35.943] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-13 11:53:37.059] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-13 11:53:37.061] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-13 11:53:37.063] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-13 11:53:37.064] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-13 11:53:45.803] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-13 11:53:45.812] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-13 11:53:46.428] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-13 11:53:46.428] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
+[2024-09-13 12:53:35.287] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-09-13 12:53:35.619] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-09-13 12:53:35.622] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-09-13 12:53:35.623] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-09-13 12:53:35.707] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.5 version: prod
+[2024-09-13 12:53:36.736] [global] [info] [release.cc:138] Retrieved 9 linter-version pairs from ReleaseVersionService
+[2024-09-13 12:53:36.737] [global] [warning] [release.cc:45] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2024-09-13 12:53:38.714] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-09-13 12:53:39.396] [global] [info] [notification_manager.cc:37] Writing to C:\Users\HP\PycharmProjects\vprofile-project\.trunk\notifications\trunk-upgrade.yaml
